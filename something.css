@@ -6,6 +6,7 @@ h1{
 body{
 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa9i6e3PGC2Xt2T8w4OJfj0gQSqe2AOP285g&usqp=CAU");
 	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 #tablo{
 	font-style: initial;
