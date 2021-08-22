@@ -1,0 +1,26 @@
+
+h1{
+	color:  deeppink;
+	text-shadow: 2px 2px 5px black;
+}
+body{
+	background-image: url("https://adashalieva.github.io/main/Untitled.png");
+	background-position: top center;
+	background-attachment: fixed;
+}
+#tablo{
+	font-style: initial;
+	color:  white;
+	background:  linear-gradient(to right,#00001a, #ccccff);
+	cellspacing: 20px;
+	border-spacing: 20px 10px;
+	width:70%; 
+    margin-left:2%; 
+    margin-right:2%;
+}
+.ImageBorder{
+	border-right: 2px dashed blue;
+	height: 250px;
+	width: 350px;
+	padding-left: 45px;
+	}
