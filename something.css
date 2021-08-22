@@ -6,6 +6,7 @@ h1{
 body{
 	background-image: url("https://images3.alphacoders.com/621/621682.jpg")
 	background-attachment: fixed;
+	background-position:center;
 	background-repeat: no-repeat;
 }
 #tablo{
