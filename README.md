@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <title>Hello</title>
-<link rel="stylesheet" href="something.css">
+<link rel="stylesheet" href="https://adashalieva.github.io/adashalieva/something.css">
 </head>
 <body>
 	<br>
