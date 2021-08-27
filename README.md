@@ -2,77 +2,58 @@
 <html lang="en">
 <head>
 <title>Hello</title>
-<link rel="stylesheet" href="https://adashalieva.github.io/adashalieva/something.css">
+<link rel="stylesheet" href="C:\Users\Maftunabonu\Desktop\New folder\something.css">
 </head>
 <body>
-	<br>
-	<br>
-	<br>
-	<br>
-	<table>
-	<tr>
-	<td><img src="https://thumbs.dreamstime.com/b/energy-electricity-rectangular-logo-jpg-eps-file-easy-to-edit-energy-electricity-rectangular-logo-123729613.jpg" alt="the logo" height="100" width ="100"></td>
-	<td><h1> Welcome to my page </h1></td>
-	</tr>
-	</table>
+	<nav>
+		<ul class="topnav" id="dropDownClick">
+		<li><a href="https://mover.uz/video/humor">Home</a></li>
+		<li><a href="https://google.com">Films</a></li>
+		<li><a href="https://google.com">TV</a></li>
+		<li><a href="https://google.com">Games</a></li>
+	<li><a href="https://google.com">Music</a></li>
+	<li><a href="https://google.com">Auto</a></li>
+	<li><a href="https://google.com">Sport</a></li>
+	<li><a href="https://google.com">Anime</a></li>
+	<li class="topnav-right"><a href="https://google.com">Sign In</a></li>
+	<li class="topnav-right"><a href="https://google.com">Sign Up</a></li>
+	<li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropDownMenu()">&#9776;</a></li>
+</ul>
+	</nav>
 
-<table id = "tablo">		
-	<tr>
-		<td><a href="https://mover.uz/video/humor">Юмор</a></td>
-		<td><a href="https://google.com">Кино</a></td>
-		<td><a href="https://google.com">ТВ</a></td>
-		<td><a href="https://google.com">Игры</a></td>
-	<td><a href="https://google.com">Музыка</a></td>
-	<td><a href="https://google.com">Авто</a></td>
-	<td><a href="https://google.com">Спорт</a></td>
-	<td><a href="https://google.com">Аниме</a></td>
-	<td><a href="https://google.com">Техно</a></td>
-	<td><a href="https://google.com">Обучение</a></td>
-	<td><a href="https://google.com">Узбекистан</a></td>
-	<td><a href="https://google.com">Кулинария</a></td>
-	<td><a href="https://google.com">Прочие</a></td>
-	<td><a href="https://google.com">Новое</a></td>
-</tr>
-	</table>
-	<br>
-	<br>
-	<div>
-		<img src="https://ih1.redbubble.net/image.612477411.7669/flat,750x,075,f-pad,750x1000,f8f8f8.u3.jpg" class="ImageBorder">
+	<div class="container" id="section1">
+		<div class="row">
+			<div class="col-6 leftSide-col">
+				<div>
+				<h1 class="large">Welcome to my page</h1>
+				<h1 class="large">made from heart</h1>
+			</div>
+			<form>
+				<div>
+					<h2>Username</h2>
+					<input class="inputbox" name="username" type="text" placeholder="Username">
+					<h2>Password</h2>
+					<input class="inputbox" type="text" name ="password"placeholder="Password">
+				</div>
+			</form>
+		</div>
+			<div class="col-6">
+				<h1>Welcome to my page</h1>
+				<h1 >made from heart</h1>
+			</div>
+		</div>
+
+
 	</div>
-	<table cellpadding="25" cellspacing="5">
-		<tr>
-			<td><button>HTML5</button></td>
-			<td><button>CSS</button></td>
-			<td><button>Java</button></td>
 
-		</tr>
-			<tr>
-			<td><button>Python</button></td>
-			<td><button>C</button></td>
-			<td><button>C++</button></td>
 
-		</tr>
-	</table>
-	<h1>Why me?</h1>
-	<ol>
-		<li style="color:white">intelligent</li>
-		<li style="color:white">creative</li>
-		<li style="color:white">hard-worker</li>
-		<li style="color:white">beautiful</li>
-	</ol>
-
-	<h3>Contact me</h3>
-	<form>
-		First name: <br>
-		<input type="text">
-		<br>
-		Last name: <br>
-		<input type="text"><br>
-		Email:<br>
-		<input type="text"><br>
-		<button>SUBMIT</button>
-
-	</form>
-	</body>
-	<p>uiin</p>
+	<script>
+		function dropDownMenu(){
+			var x = document.getElementById("dropDownClick");
+			if(x.className === "topnav"){
+				x.className += " reponsive";
+			}else{
+			x.className="topnav";}}
+	</script>
+</body>
 </html>
