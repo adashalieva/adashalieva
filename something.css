@@ -1,27 +1,123 @@
-
-h1{
-	color:  deeppink;
-	text-shadow: 2px 2px 5px black;
+/*################ defaults ############*/
+nav, header, footer{
+	display:  block;
 }
 body{
-	background-image: url("https://adashalieva.github.io/adashalieva/Untitled.png");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: top center;
+	line-height:  1;
+	margin: 0;
+
 }
-#tablo{
-	font-style: initial;
+
+.container{
+	width:  100%;
+	margin: auto;
+	padding-top: 4%;
+	padding-bottom:  4%;
+}
+#section1{
+	background: red;
+	background: -webkit-linear-gradient(#0072fc, #b1d3fc);
+	background: -o-linear-gradient(#0072fc, #b1d3fc);
+	background: -moz-linear-gradient(#0072fc, #b1d3fc);
+	background: linear-gradient(#0072fc, #b1d3fc);
+
+}
+h1.large{
+	color: white;
+	font-size: 56px;
+	margin:  0;
+	line-height:  70px;
+}
+input[type="text"]{
+	font-size: 20px;
+	width: 400px;
+	min-width: 100px;
+	padding: 5px ;
+}
+form h2{
 	color:  white;
-	background:  linear-gradient(to right,#00001a, #ccccff);
-	cellspacing: 20px;
-	border-spacing: 20px 10px;
-	width:70%; 
-    margin-left:2%; 
-    margin-right:2%;
 }
-.ImageBorder{
-	border-right: 2px dashed blue;
-	height: 250px;
-	width: 350px;
-	padding-left: 45px;
+.leftSide-col{
+	margin-left: 30%;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width:  41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+
+/*############# nav bar ################*/
+nav{
+	background-color:  #ccccff;
+	width: 100%;
+	margin: 0;
+}
+nav ul{
+	
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li{
+	list-style: none;
+	float:  left;
+}
+ul.topnav li.topnav-right{
+	float: right;
+}
+ul.topnav li a{
+	display:  block;
+	text-decoration:  none;
+	min-height: 16px;
+	text-align:  center;
+	padding:  14px;
+
+}
+ul.topnav li a:hover{
+	background-color: #ddddff;
+	color: #0000ff;
+
+}
+ul.topnav li.dropdownIcon{
+	display:  none;
+}
+
+
+/*############### Mobile #############*/
+ @media screen and (max-width: 680px){
+ 	ul.topnav li:not(:nth-child(1)){
+ 		display: none;
+ 	}
+
+ 	ul.topnav li.dropdownIcon{
+ 		display: block;
+ 		float: right;
+ 	}
+
+ 	ul.topnav.responsive li.dropdownIcon {
+ 		position: absolute;
+ 		top: 0;
+ 		right: 0;
+ 	}
+
+ 	ul.topnav.responsive{
+ 	position: relative;
 	}
+	ul.topnav.reponsive li{
+		display:  inline;
+		float:  none;
+	}
+	ul.topnav.reponsive li a{
+	display: block;
+	text-align: left;
+}}
